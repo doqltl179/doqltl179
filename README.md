@@ -1,7 +1,9 @@
 ![header](https://capsule-render.vercel.app/api?type=rect&height=300&color=gradient&text=WELCOME!!&descAlign=0&descAlignY=100&fontSize=90)
 
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=doqltl179&layout=compact)
+
 # Repositories
-  
+
 <span style="display: flex; align-items: center;">
   <h3>
     <a href="https://github.com/doqltl179/Mu3Library_ForUnity">My Unity Library</a> 
