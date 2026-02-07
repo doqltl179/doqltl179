@@ -1,20 +1,20 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Hi%20there!%20👋&fontSize=70&fontAlignY=40&desc=Game%20Developer%20%7C%20Unity%20Engineer&descSize=20&descAlignY=60)
+![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=こんにちは!%20👋&fontSize=70&fontAlignY=40&desc=ゲーム開発者%20%7C%20Unity%20エンジニア&descSize=20&descAlignY=60)
 
 [![English](https://img.shields.io/badge/Language-English-blue?style=flat-square)](README.md)
 [![한국어](https://img.shields.io/badge/Language-한국어-red?style=flat-square)](README_ko.md)
 [![日本語](https://img.shields.io/badge/Language-日本語-orange?style=flat-square)](README_ja.md)
 
-### 🚀 About Me
+### 🚀 自己紹介
 
-Game Developer specializing in Unity Engine with a passion for creating scalable architectures and immersive experiences.
+スケーラブルなアーキテクチャと没入感のある体験を創造することに情熱を持つUnity Engineスペシャリストのゲーム開発者です。
 
 </div>
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 技術スタック
 
 <div align="center">
 
@@ -27,7 +27,7 @@ Game Developer specializing in Unity Engine with a passion for creating scalable
 
 ---
 
-## 📂 Featured Projects
+## 📂 主要プロジェクト
 
 ### 🏗 [Mu3Library For Unity](https://github.com/doqltl179/Mu3Library_ForUnity)
 
@@ -40,17 +40,17 @@ Game Developer specializing in Unity Engine with a passion for creating scalable
 
 </div>
 
-> **Modular architecture framework for Unity projects**
+> **Unityプロジェクト用のモジュール式アーキテクチャフレームワーク**
 >
-> A production-ready framework built around custom DI (Dependency Injection) and MVP (Model-View-Presenter) patterns, designed for scalable and maintainable game development.
+> スケーラブルで保守可能なゲーム開発のために設計された、カスタムDI（依存性注入）およびMVP（Model-View-Presenter）パターンベースの本番環境対応フレームワークです。
 
-**Key Features:**
-- 💉 Custom DI Container with Singleton, Transient, Scoped lifetimes
-- 🎨 MVP UI Pattern for testable, maintainable UI logic
-- 🏗 Modular Core System with automatic lifecycle management
-- 📦 Optional package support: UniTask, Addressables, Localization
-- 🎵 Built-in Audio, WebRequest, Observable systems
-- 🛠 Extensive utility collection and extension methods
+**主な機能:**
+- 💉 Singleton、Transient、ScopedライフサイクルをサポートするカスタムDIコンテナ
+- 🎨 テスト可能で保守可能なUIロジックのためのMVP UIパターン
+- 🏗 自動ライフサイクル管理を備えたモジュール式コアシステム
+- 📦 オプションパッケージのサポート: UniTask、Addressables、Localization
+- 🎵 組み込みのAudio、WebRequest、Observableシステム
+- 🛠 豊富なユーティリティコレクションと拡張メソッド
 
 ---
 
@@ -64,14 +64,14 @@ Game Developer specializing in Unity Engine with a passion for creating scalable
 
 </div>
 
-> **Horror Game Released on Steam**
+> **Steamでリリースされたホラーゲーム**
 >
-> A psychological horror experience featuring atmospheric storytelling and immersive sound design.
+> 雰囲気のあるストーリーテリングと没入感のあるサウンドデザインが特徴の心理ホラー体験です。
 
-**🔗 [Play on Steam](https://store.steampowered.com/app/2875300/The_Echo_Escape/)**
+**🔗 [Steamでプレイ](https://store.steampowered.com/app/2875300/The_Echo_Escape/)**
 
 <details>
-<summary>📺 Watch Trailer</summary>
+<summary>📺 トレーラーを見る</summary>
 
 [![The Echo Escape Trailer](https://img.youtube.com/vi/rbei7quiAF4/0.jpg)](https://youtu.be/rbei7quiAF4)
 
@@ -88,12 +88,12 @@ Game Developer specializing in Unity Engine with a passion for creating scalable
 
 </div>
 
-> **Music Video Created in Unity**
+> **Unityで制作されたミュージックビデオ**
 >
-> An experimental project showcasing Unity's capabilities for cinematic real-time rendering and audio-visual synchronization.
+> 映画的なリアルタイムレンダリングとオーディオビジュアル同期のためのUnityの能力を示す実験的プロジェクトです。
 
 <details>
-<summary>📺 Watch Music Video</summary>
+<summary>📺 ミュージックビデオを見る</summary>
 
 [![PostMV - ghost choir](https://img.youtube.com/vi/znUe_MXd8lU/0.jpg)](https://youtu.be/znUe_MXd8lU)
 
@@ -101,7 +101,7 @@ Game Developer specializing in Unity Engine with a passion for creating scalable
 
 ---
 
-## 📫 Contact & Links
+## 📫 連絡先とリンク
 
 <div align="center">
 

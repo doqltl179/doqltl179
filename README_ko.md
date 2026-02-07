@@ -1,20 +1,20 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Hi%20there!%20👋&fontSize=70&fontAlignY=40&desc=Game%20Developer%20%7C%20Unity%20Engineer&descSize=20&descAlignY=60)
+![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=안녕하세요!%20👋&fontSize=70&fontAlignY=40&desc=게임%20개발자%20%7C%20Unity%20엔지니어&descSize=20&descAlignY=60)
 
 [![English](https://img.shields.io/badge/Language-English-blue?style=flat-square)](README.md)
 [![한국어](https://img.shields.io/badge/Language-한국어-red?style=flat-square)](README_ko.md)
 [![日本語](https://img.shields.io/badge/Language-日本語-orange?style=flat-square)](README_ja.md)
 
-### 🚀 About Me
+### 🚀 소개
 
-Game Developer specializing in Unity Engine with a passion for creating scalable architectures and immersive experiences.
+확장 가능한 아키텍처와 몰입감 있는 경험을 창조하는 것에 열정을 가진 Unity 엔진 전문 게임 개발자입니다.
 
 </div>
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 기술 스택
 
 <div align="center">
 
@@ -27,7 +27,7 @@ Game Developer specializing in Unity Engine with a passion for creating scalable
 
 ---
 
-## 📂 Featured Projects
+## 📂 주요 프로젝트
 
 ### 🏗 [Mu3Library For Unity](https://github.com/doqltl179/Mu3Library_ForUnity)
 
@@ -40,17 +40,17 @@ Game Developer specializing in Unity Engine with a passion for creating scalable
 
 </div>
 
-> **Modular architecture framework for Unity projects**
+> **Unity 프로젝트를 위한 모듈식 아키텍처 프레임워크**
 >
-> A production-ready framework built around custom DI (Dependency Injection) and MVP (Model-View-Presenter) patterns, designed for scalable and maintainable game development.
+> 확장 가능하고 유지보수 가능한 게임 개발을 위해 설계된 커스텀 DI(의존성 주입) 및 MVP(Model-View-Presenter) 패턴 기반 프로덕션 준비 프레임워크입니다.
 
-**Key Features:**
-- 💉 Custom DI Container with Singleton, Transient, Scoped lifetimes
-- 🎨 MVP UI Pattern for testable, maintainable UI logic
-- 🏗 Modular Core System with automatic lifecycle management
-- 📦 Optional package support: UniTask, Addressables, Localization
-- 🎵 Built-in Audio, WebRequest, Observable systems
-- 🛠 Extensive utility collection and extension methods
+**주요 기능:**
+- 💉 Singleton, Transient, Scoped 생명주기를 지원하는 커스텀 DI 컨테이너
+- 🎨 테스트 가능하고 유지보수 가능한 UI 로직을 위한 MVP UI 패턴
+- 🏗 자동 생명주기 관리를 갖춘 모듈식 코어 시스템
+- 📦 선택적 패키지 지원: UniTask, Addressables, Localization
+- 🎵 내장 오디오, WebRequest, Observable 시스템
+- 🛠 광범위한 유틸리티 모음 및 확장 메서드
 
 ---
 
@@ -64,14 +64,14 @@ Game Developer specializing in Unity Engine with a passion for creating scalable
 
 </div>
 
-> **Horror Game Released on Steam**
+> **Steam에 출시된 공포 게임**
 >
-> A psychological horror experience featuring atmospheric storytelling and immersive sound design.
+> 분위기 있는 스토리텔링과 몰입감 있는 사운드 디자인이 특징인 심리 공포 경험입니다.
 
-**🔗 [Play on Steam](https://store.steampowered.com/app/2875300/The_Echo_Escape/)**
+**🔗 [Steam에서 플레이하기](https://store.steampowered.com/app/2875300/The_Echo_Escape/)**
 
 <details>
-<summary>📺 Watch Trailer</summary>
+<summary>📺 트레일러 보기</summary>
 
 [![The Echo Escape Trailer](https://img.youtube.com/vi/rbei7quiAF4/0.jpg)](https://youtu.be/rbei7quiAF4)
 
@@ -88,12 +88,12 @@ Game Developer specializing in Unity Engine with a passion for creating scalable
 
 </div>
 
-> **Music Video Created in Unity**
+> **Unity로 제작된 뮤직비디오**
 >
-> An experimental project showcasing Unity's capabilities for cinematic real-time rendering and audio-visual synchronization.
+> 영화적 실시간 렌더링과 오디오-비주얼 동기화를 위한 Unity의 능력을 보여주는 실험적 프로젝트입니다.
 
 <details>
-<summary>📺 Watch Music Video</summary>
+<summary>📺 뮤직비디오 보기</summary>
 
 [![PostMV - ghost choir](https://img.youtube.com/vi/znUe_MXd8lU/0.jpg)](https://youtu.be/znUe_MXd8lU)
 
@@ -101,7 +101,7 @@ Game Developer specializing in Unity Engine with a passion for creating scalable
 
 ---
 
-## 📫 Contact & Links
+## 📫 연락처 및 링크
 
 <div align="center">
 
