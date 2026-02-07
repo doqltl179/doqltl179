@@ -1,34 +1,107 @@
-![header](https://capsule-render.vercel.app/api?type=rect&height=300&color=gradient&text=WELCOME!!&descAlign=0&descAlignY=100&fontSize=90)
+<div align="center">
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=doqltl179&layout=compact)
+![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Hi%20there!%20👋&fontSize=70&fontAlignY=40&desc=Game%20Developer%20%7C%20Unity%20Engineer&descSize=20&descAlignY=60)
 
-# Repositories
+### 🚀 About Me
 
-<span style="display: flex; align-items: center;">
-  <h3>
-    <a href="https://github.com/doqltl179/Mu3Library_ForUnity">My Unity Library</a> 
-    <img src="https://img.shields.io/badge/unity-%23FFFFFF?style=plastic&color=%23000000" height="20"/> 
-    <img src="https://img.shields.io/badge/c%23-%23FFFFFF?style=plastic&color=%23512BD4" height="20"/> 
-    <img src="https://img.shields.io/badge/hlsl-%23FFFFFF?style=plastic&color=%23DBBC04" height="20"/> 
-  </h3>
+Game Developer specializing in Unity Engine with a passion for creating scalable architectures and immersive experiences.
 
-  > My code factory for Unity.
+</div>
 
+---
 
-  <h3>
-    <a href="https://github.com/doqltl179/TheEchoEscape">The Echo Escape</a> 
-    <img src="https://img.shields.io/badge/unity-%23FFFFFF?style=plastic&color=%23000000" height="20"/> 
-    <img src="https://img.shields.io/badge/c%23-%23FFFFFF?style=plastic&color=%23512BD4" height="20"/> 
-  </h3>
+## 🛠 Tech Stack
 
-  > My Horror Game released on Steam.
+<div align="center">
 
+![Unity](https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![HLSL](https://img.shields.io/badge/HLSL-DBBC04?style=for-the-badge&logo=shaderlab&logoColor=white)
 
-  <h3>
-    <a href="https://github.com/doqltl179/Post_MV_ghost_choir">PostMV - ghost choir</a> 
-    <img src="https://img.shields.io/badge/unity-%23FFFFFF?style=plastic&color=%23000000" height="20"/> 
-    <img src="https://img.shields.io/badge/c%23-%23FFFFFF?style=plastic&color=%23512BD4" height="20"/> 
-  </h3>
+</div>
 
-  > Just Music Video that created on Unity
-</span>
+---
+
+## 📂 Featured Projects
+
+### 🏗 [Mu3Library For Unity](https://github.com/doqltl179/Mu3Library_ForUnity)
+
+<div align="left">
+
+![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white)
+![HLSL](https://img.shields.io/badge/HLSL-DBBC04?style=flat-square)
+![MIT License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+
+</div>
+
+> **Modular architecture framework for Unity projects**
+>
+> A production-ready framework built around custom DI (Dependency Injection) and MVP (Model-View-Presenter) patterns, designed for scalable and maintainable game development.
+
+**Key Features:**
+- 💉 Custom DI Container with Singleton, Transient, Scoped lifetimes
+- 🎨 MVP UI Pattern for testable, maintainable UI logic
+- 🏗 Modular Core System with automatic lifecycle management
+- 📦 Optional package support: UniTask, Addressables, Localization
+- 🎵 Built-in Audio, WebRequest, Observable systems
+- 🛠 Extensive utility collection and extension methods
+
+---
+
+### 🎮 [The Echo Escape](https://github.com/doqltl179/TheEchoEscape)
+
+<div align="left">
+
+![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white)
+![Steam](https://img.shields.io/badge/Steam-Released-blue?style=flat-square&logo=steam)
+
+</div>
+
+> **Horror Game Released on Steam**
+>
+> A psychological horror experience featuring atmospheric storytelling and immersive sound design.
+
+**🔗 [Play on Steam](https://store.steampowered.com/app/2875300/The_Echo_Escape/)**
+
+<details>
+<summary>📺 Watch Trailer</summary>
+
+[![The Echo Escape Trailer](https://img.youtube.com/vi/rbei7quiAF4/0.jpg)](https://youtu.be/rbei7quiAF4)
+
+</details>
+
+---
+
+### 🎵 [PostMV - ghost choir](https://github.com/doqltl179/Post_MV_ghost_choir)
+
+<div align="left">
+
+![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white)
+
+</div>
+
+> **Music Video Created in Unity**
+>
+> An experimental project showcasing Unity's capabilities for cinematic real-time rendering and audio-visual synchronization.
+
+<details>
+<summary>📺 Watch Music Video</summary>
+
+[![PostMV - ghost choir](https://img.youtube.com/vi/znUe_MXd8lU/0.jpg)](https://youtu.be/znUe_MXd8lU)
+
+</details>
+
+---
+
+## 📫 Contact & Links
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-doqltl179-181717?style=for-the-badge&logo=github)](https://github.com/doqltl179)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://github.com/doqltl179)
+
+</div>
