@@ -54,7 +54,7 @@
 
 ---
 
-### 🎮 [The Echo Escape](https://github.com/doqltl179/TheEchoEscape)
+### 🎮 The Echo Escape
 
 <div align="left">
 

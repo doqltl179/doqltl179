@@ -54,7 +54,7 @@ Game Developer specializing in Unity Engine with a passion for creating scalable
 
 ---
 
-### 🎮 [The Echo Escape](https://github.com/doqltl179/TheEchoEscape)
+### 🎮 The Echo Escape
 
 <div align="left">
 
