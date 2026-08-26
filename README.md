@@ -1,6 +1,6 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Hi%20there!%20👋&fontSize=70&fontAlignY=40&desc=Unity%20Game%20Developer%20%7C%20Framework%20%26%20Tooling&descSize=20&descAlignY=60)
+![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Hi%20there!%20%F0%9F%91%8B&fontSize=70&fontAlignY=40&desc=Unity%20Game%20Developer%20%7C%20Framework%20and%20Tooling&descSize=20&descAlignY=60)
 
 [![English](https://img.shields.io/badge/Language-English-blue?style=flat-square)](README.md)
 [![한국어](https://img.shields.io/badge/Language-한국어-red?style=flat-square)](README_ko.md)

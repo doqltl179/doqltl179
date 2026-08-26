@@ -64,6 +64,8 @@ Each one is a third-party host that can go down and take a README image with it.
 | `img.youtube.com` | Video thumbnails |
 | `github-profile-summary-cards.vercel.app` | GitHub statistics cards, `theme=transparent` so one image reads in both GitHub color modes |
 
+**Text interpolated into a generated SVG must be XML-safe.** A bare `&`, `<`, or `>` in a `text` or `desc` parameter produces invalid XML, the service still answers `200`, and GitHub renders a broken image. Write `and` instead of `&`, and percent-encode every non-ASCII character in the URL so each client transmits it the same way. `python tools/verify-readmes.py` catches both.
+
 `github-readme-stats.vercel.app` was evaluated on 2026-08-26 and returned `503` on every attempt, so the statistics cards use the summary-cards service instead. Re-check before switching back.
 
 ## Deliberately Absent

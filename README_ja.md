@@ -1,6 +1,6 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=こんにちは!%20👋&fontSize=70&fontAlignY=40&desc=Unity%20ゲーム開発者%20%7C%20フレームワーク%20%26%20ツール&descSize=20&descAlignY=60)
+![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF!%20%F0%9F%91%8B&fontSize=70&fontAlignY=40&desc=Unity%20%E3%82%B2%E3%83%BC%E3%83%A0%E9%96%8B%E7%99%BA%E8%80%85%20%7C%20%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%A8%E3%83%84%E3%83%BC%E3%83%AB&descSize=20&descAlignY=60)
 
 [![English](https://img.shields.io/badge/Language-English-blue?style=flat-square)](README.md)
 [![한국어](https://img.shields.io/badge/Language-한국어-red?style=flat-square)](README_ko.md)

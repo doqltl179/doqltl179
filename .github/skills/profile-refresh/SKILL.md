@@ -24,10 +24,9 @@ Report findings; do not edit until the user has seen them.
 
 1. **Inventory the account.** `gh repo list <handle> --json name,isPrivate,isFork,updatedAt,description` — look for a repository that went public, a new project worth featuring, and a featured project that went private.
 2. **Re-read every version.** Pull each value in the fact table from where it actually lives — `package.json`, a Git tag, a store page — never from the README.
-3. **Request every URL.** Extract them with the command in `readme-sync.md` and check each for a 2xx response. Include image URLs; a badge host that started failing is the most common silent break.
-4. **Check the image services.** Confirm each card and banner still renders, not merely that the host answers. A service that returns an error card still returns `200`.
-5. **Compare the three files.** Heading counts, section order, and URL sets must match.
-6. **Check the deliberately-absent list.** A project listed there may have changed status — that is a question for the user, not a decision to make.
+3. **Run `python tools/verify-readmes.py`.** It covers reachability, SVG validity, and three-file parity in one pass. A non-zero exit is a finding.
+4. **Look at the cards it could not judge.** A card can be valid SVG and still say the wrong thing — an error card, or a statistic that no longer matches reality.
+5. **Check the deliberately-absent list.** A project listed there may have changed status — that is a question for the user, not a decision to make.
 
 ## Report
 

@@ -26,6 +26,7 @@ The skill below runs a procedure on this wiki. **The canonical page always owns 
 | Executor | Follows |
 |---|---|
 | [profile-refresh](../../.github/skills/profile-refresh/SKILL.md) | [profile-facts.md](profile-facts.md), [readme-sync.md](readme-sync.md) |
+| [tools/verify-readmes.py](../../tools/verify-readmes.py) | [readme-sync.md](readme-sync.md) «Before You Commit» |
 
 ## Why This Repository Has A Wiki At All
 

@@ -17,14 +17,14 @@ This page owns the order in which one request is handled. It does not own conten
 3. Run the branch preflight and cut the task branch from `origin/main`. See [git-workflow.md](git-workflow.md). `main` takes no direct commit.
 4. Verify every fact the change will state, and update [profile-facts.md](profile-facts.md) first when a value moved. Verification rules are in [content-rules.md](content-rules.md).
 5. Edit all three READMEs together, following [readme-sync.md](readme-sync.md).
-6. Run the sync checks in [readme-sync.md](readme-sync.md) and request every external URL. Record what you ran and what it returned.
+6. Run `python tools/verify-readmes.py` and record its output. See [readme-sync.md](readme-sync.md).
 7. Open the pull request into `main` with that evidence in the body. See [git-workflow.md](git-workflow.md).
 8. Report what changed, what you verified, and every claim you dropped for being unverifiable.
 
 ## Keep The Work Bounded
 
 - Answer with the smallest clear result that completes the request.
-- This repository has no build and no test. Requesting the links and comparing the three files **is** the verification — skipping it means shipping unverified.
+- This repository has no build and no test. `tools/verify-readmes.py` **is** the verification — skipping it means shipping unverified.
 - Rendering is only checked by a person looking at the pull request. Say so plainly instead of implying the layout was confirmed.
 
 ## Notes

@@ -30,7 +30,7 @@
 
 3. Review `git diff` and `git status --short --untracked-files=all`, then group files by one concern at a time.
 4. Stage explicit paths and commit that concern with a focused message. Never use `git add .`.
-5. Run the checks in [readme-sync.md](readme-sync.md) and keep their output for the pull request body.
+5. Run `python tools/verify-readmes.py` and keep its output for the pull request body.
 6. Push and verify the remote tip: `git push -u origin <branch>`.
 7. Open the pull request into `main`. **No CI runs here** — nothing checks the destination, the branch name, or a dead link for you, so confirm them yourself before opening.
 8. After it merges, delete the task branch locally and on the remote, then fast-forward local `main` from `origin/main`.
