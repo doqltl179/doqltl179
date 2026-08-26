@@ -27,6 +27,7 @@ Hold these before the canonical pages are read. Each line's body and exceptions 
 - **Do not link a private repository.** Name the project without a link instead; a 404 on a profile page is worse than no link — content-rules
 - **Never edit one README alone.** `README.md`, `README_ko.md`, and `README_ja.md` change in the same commit — readme-sync
 - **One fact has one owner.** The fact table owns values; the three READMEs render them — profile-facts
+- **Run `python tools/verify-readmes.py` before committing a README change.** A `2xx` does not mean an image renders — readme-sync
 - **Ask before adding a person's contact details.** Email, phone, and messenger handles are the user's call, not yours — content-rules
 
 ## When You Edit Docs

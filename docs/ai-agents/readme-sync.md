@@ -33,17 +33,13 @@ This page owns the procedure that keeps the three language files identical in ev
 
 ## Before You Commit
 
-Run these and read the output, rather than trusting that the edits matched.
-
 ```bash
-# Section headings must be identical in count and order across the three files.
-for f in README.md README_ko.md README_ja.md; do echo "== $f"; grep -c '^#' "$f"; done
-
-# Every URL used, per file. The three lists must match.
-for f in README.md README_ko.md README_ja.md; do echo "== $f"; grep -oE 'https?://[^)"| ]+' "$f" | sort -u; done
+python tools/verify-readmes.py
 ```
 
-Then request each distinct URL once and confirm a 2xx response, per [content-rules.md](content-rules.md).
+It checks heading skeletons, the shared URL set, that every URL answers 2xx, and that **every SVG parses as XML**. A non-zero exit is a blocker.
+
+That last check is not decoration. A status code alone does not tell you an image works: a generator that interpolates text into SVG emits invalid XML the moment that text contains a bare `&`, answers `200` anyway, and GitHub's image proxy serves a broken image. A banner shipped that way on 2026-08-26 and passed a `2xx`-only check. See [profile-facts.md](profile-facts.md) «Image And Badge Services».
 
 ## Notes
 
