@@ -44,6 +44,13 @@ Because a reviewer cannot run anything, the body carries the evidence:
 - the URL check output,
 - anything a human still has to eyeball, such as rendered layout in both GitHub color modes.
 
+## Language
+
+- Write commit messages, pull request titles, and pull request bodies in **Korean**. The owner reviews in Korean, and a record they have to translate before reading is a record that does not get read.
+- Keep version-controlled prose in English: the primary `README.md`, and the agent documentation under `docs/ai-agents/` and `.github/`. That matches the sibling `Mu3Library_ForUnity` documentation set, so an agent moving between the two repositories reads one language.
+- `README_ko.md` and `README_ja.md` are translations and follow [readme-sync.md](readme-sync.md) instead.
+- Never translate an identifier: branch names, Conventional Commit types and scopes, file paths, commands, and version numbers stay as they are.
+
 ## Notes
 
 - Push only what the user asked for. Opening a pull request is a separate action from merging it; never merge without being asked.
