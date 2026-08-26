@@ -1,6 +1,6 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=안녕하세요!%20👋&fontSize=70&fontAlignY=40&desc=게임%20개발자%20%7C%20Unity%20엔지니어&descSize=20&descAlignY=60)
+![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=안녕하세요!%20👋&fontSize=70&fontAlignY=40&desc=Unity%20게임%20개발자%20%7C%20프레임워크%20%26%20툴링&descSize=20&descAlignY=60)
 
 [![English](https://img.shields.io/badge/Language-English-blue?style=flat-square)](README.md)
 [![한국어](https://img.shields.io/badge/Language-한국어-red?style=flat-square)](README_ko.md)
@@ -8,7 +8,9 @@
 
 ### 🚀 소개
 
-확장 가능한 아키텍처와 몰입감 있는 경험을 창조하는 것에 열정을 가진 Unity 엔진 전문 게임 개발자입니다.
+Unity 게임 개발자입니다. 프레임워크와 에디터 툴링을 먼저 만들고, 그 위에서 돌아가는 게임을 출시합니다.
+
+공개된 작업물은 대부분 Unity 6용 모듈식 패키지 세트인 **Mu3Library**에 모여 있고, 출시한 게임은 Steam에 있습니다.
 
 </div>
 
@@ -22,6 +24,14 @@
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![HLSL](https://img.shields.io/badge/HLSL-DBBC04?style=for-the-badge&logo=shaderlab&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+![URP](https://img.shields.io/badge/URP-1a5fb4?style=flat-square)
+![Addressables](https://img.shields.io/badge/Addressables-1a5fb4?style=flat-square)
+![Localization](https://img.shields.io/badge/Localization-1a5fb4?style=flat-square)
+![Input System](https://img.shields.io/badge/Input%20System-1a5fb4?style=flat-square)
+![UniTask](https://img.shields.io/badge/UniTask-1a5fb4?style=flat-square)
 
 </div>
 
@@ -33,24 +43,34 @@
 
 <div align="left">
 
-![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)
+![Unity](https://img.shields.io/badge/Unity-6000.0%2B-000000?style=flat-square&logo=unity&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white)
 ![HLSL](https://img.shields.io/badge/HLSL-DBBC04?style=flat-square)
 ![MIT License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
 </div>
 
-> **Unity 프로젝트를 위한 모듈식 아키텍처 프레임워크**
+> **Unity 6용 모듈식 아키텍처 패키지 세트**
 >
-> 확장 가능하고 유지보수 가능한 게임 개발을 위해 설계된 커스텀 DI(의존성 주입) 및 MVP(Model-View-Presenter) 패턴 기반 프로덕션 준비 프레임워크입니다.
+> 커스텀 DI 컨테이너와 MVP UI 패턴 위에 올린 세 개의 계층형 Unity 패키지입니다. 선택적 연동은 define 심볼로 분리되어 있어, UniTask·Addressables·Localization·Input System·Mobile Notifications를 설치하지 않은 프로젝트도 그대로 컴파일되고 그만큼의 비용도 들지 않습니다.
+
+| 패키지 | 버전 | 의존 |
+|---|---|---|
+| `Mu3Library_Base` | 0.26.0 | — |
+| `Mu3Library_URP` | 0.3.0 | Base |
+| `Mu3Library_Game_WatermelonGame` | 0.6.0 | Base, URP |
 
 **주요 기능:**
-- 💉 Singleton, Transient, Scoped 생명주기를 지원하는 커스텀 DI 컨테이너
-- 🎨 테스트 가능하고 유지보수 가능한 UI 로직을 위한 MVP UI 패턴
-- 🏗 자동 생명주기 관리를 갖춘 모듈식 코어 시스템
-- 📦 선택적 패키지 지원: UniTask, Addressables, Localization
-- 🎵 내장 오디오, WebRequest, Observable 시스템
-- 🛠 광범위한 유틸리티 모음 및 확장 메서드
+- 💉 **DI 컨테이너** — Singleton·Transient·Scoped 생명주기, Core 간 필드/프로퍼티 주입
+- 🎨 **MVP UI** — View·Presenter·Model 분리, await 가능한 열기/닫기
+- 🏗 **Core 모듈** — `IInitializable`·`IUpdatable`·`IDisposable` 기반의 결정적 실행 순서
+- 🎵 **오디오** — BGM·SFX·환경음 채널, 믹서 그룹 라우팅, BGM 더킹, await 가능한 페이드, 볼륨 저장
+- 🌐 **WebRequest** — GET·POST·PUT·PATCH·DELETE, 재시도 백오프, 요청 중 취소, 다운로드 진행률
+- 🎮 **입력 & 알림** — 인터랙티브 리바인딩과 바인딩 오버라이드 저장, Android·iOS 모바일 알림 예약
+- 🖼 **URP 화면 효과** — 흑백, 셰이크, 가우시안 블러, 뎁스 아웃라인과 카메라 스택 헬퍼
+- 🍉 **Watermelon Game 패키지** — 11단계 2D 머지 보드, 설정 가능한 `BoardConfig`, 플레이 가능한 샘플 씬
+- 🧰 **에디터 툴링** — DI 해석 검증기, 런타임 진단, Addressables·Localization 익스포터
+- ✅ **EditMode 테스트** 및 영어·한국어·일본어 문서
 
 ---
 
@@ -64,9 +84,9 @@
 
 </div>
 
-> **Steam에 출시된 공포 게임**
+> **Steam에 출시한 공포 게임**
 >
-> 분위기 있는 스토리텔링과 몰입감 있는 사운드 디자인이 특징인 심리 공포 경험입니다.
+> 분위기 있는 스토리텔링과 사운드 디자인을 중심으로 만든 심리 공포 게임입니다. 소스 저장소는 비공개입니다.
 
 **🔗 [Steam에서 플레이하기](https://store.steampowered.com/app/2875300/The_Echo_Escape/)**
 
@@ -88,9 +108,9 @@
 
 </div>
 
-> **Unity로 제작된 뮤직비디오**
+> **Unity로 렌더링한 뮤직비디오**
 >
-> 영화적 실시간 렌더링과 오디오-비주얼 동기화를 위한 Unity의 능력을 보여주는 실험적 프로젝트입니다.
+> 실시간 시네마틱 렌더링과 오디오·비주얼 동기화를 다룬 실험적인 프로젝트입니다.
 
 <details>
 <summary>📺 뮤직비디오 보기</summary>
@@ -101,11 +121,27 @@
 
 ---
 
+## 📊 GitHub 통계
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=doqltl179&theme=transparent" alt="프로필 상세" />
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=doqltl179&theme=transparent" alt="저장소별 주요 언어" height="200" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=doqltl179&theme=transparent" alt="커밋이 가장 많은 언어" height="200" />
+
+<sub>통계는 공개 저장소만 집계합니다.</sub>
+
+</div>
+
+---
+
 ## 📫 연락처 및 링크
 
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-doqltl179-181717?style=for-the-badge&logo=github)](https://github.com/doqltl179)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://github.com/doqltl179)
+[![Steam](https://img.shields.io/badge/Steam-The%20Echo%20Escape-1b2838?style=for-the-badge&logo=steam&logoColor=white)](https://store.steampowered.com/app/2875300/The_Echo_Escape/)
+[![YouTube](https://img.shields.io/badge/YouTube-Watch-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/znUe_MXd8lU)
 
 </div>
